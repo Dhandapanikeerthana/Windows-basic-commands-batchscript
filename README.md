@@ -24,23 +24,55 @@ Execute the necessary commands/batch file for the desired output.
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "my-folder"
 
-## COMMAND AND OUTPUT
+```
+mkdir %userprofile%\Desktop\MyLab
+```
+![Screenshot 2025-05-22 233114](https://github.com/user-attachments/assets/a3f71764-5d7e-412e-99c7-55bede8ebf79)
 
-Remove the directory "my-folder"
-
-## COMMAND AND OUTPUT
-
-
-Create the file Rose.txt
 
 ## COMMAND AND OUTPUT
+List the contents of the "MyLab" directory.
+```
+cd %userprofile%\Desktop\MyLab
+
+```
+![Screenshot 2025-05-22 234139](https://github.com/user-attachments/assets/8fb8de03-b106-45b4-a2e0-c8bb116b582e)
+
+![Screenshot 2025-05-22 234542](https://github.com/user-attachments/assets/f4cd8b19-251a-44b5-9da8-5deb623c49dd)
 
 
-Create the file hello.txt using echo and redirection
 
 ## COMMAND AND OUTPUT
+Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
-Copy the file hello.txt into the file hello1.txt
+```
+dir %userprofile%\Desktop\MyLab
+```
+![Screenshot 2025-05-22 235011](https://github.com/user-attachments/assets/0f5f9249-4d3e-4b9c-8a0f-b85a42d69a9f)
+
+
+
+
+## COMMAND AND OUTPUT
+copy MyFile.txt %userprofile%\Desktop\Backup
+```
+mkdir %userprofile%\Desktop\Backup
+```
+![Screenshot 2025-05-22 235228](https://github.com/user-attachments/assets/a36dc1cb-e45e-4c75-8daf-0e7eb33d18e4)
+
+![Screenshot 2025-05-22 235245](https://github.com/user-attachments/assets/0af36eb4-2f95-4552-b29f-6023d1736da0)
+
+
+
+## COMMAND AND OUTPUT
+Remove the file hello1.txt
+
+```
+mv Myfile.txt %userprofile%\Documents
+```
+
+![Screenshot 2025-05-22 235605](https://github.com/user-attachments/assets/d99f324b-1859-4a7d-aa14-bfaa6ead32f9)
+
 
 ## COMMAND AND OUTPUT
 
@@ -64,11 +96,19 @@ Compare the file hello.txt and rose.txt
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
 
+```
+@echo off
+mkdir %userprofile%\Desktop\DocBackup
+copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
+echo Backup completed successfully!
+```
 
 
 
 
 ## OUTPUT
+![Screenshot 2025-05-22 235715](https://github.com/user-attachments/assets/055c44ee-57f3-4117-b751-6a78ff525fac)
+
 
 
 
