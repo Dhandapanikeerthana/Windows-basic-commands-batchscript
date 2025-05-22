@@ -74,24 +74,6 @@ mv Myfile.txt %userprofile%\Documents
 ![Screenshot 2025-05-22 235605](https://github.com/user-attachments/assets/d99f324b-1859-4a7d-aa14-bfaa6ead32f9)
 
 
-## COMMAND AND OUTPUT
-
-Remove the file hello1.txt
-
-## COMMAND AND OUTPUT
-
-List out the file hello1.txt in the current directory
-
-## COMMAND AND OUTPUT
-
-List out all the associated file extensions 
-
-## COMMAND AND OUTPUT
-
-
-Compare the file hello.txt and rose.txt
-
-## COMMAND AND OUTPUT
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
